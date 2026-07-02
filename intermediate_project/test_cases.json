@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "input": "Looking for a Remote Python Developer job at Google in Lahore. Salary around 250000 PKR. Skills required are Python, FastAPI and SQL.",
+        "expected": "Complete job application extracted successfully."
+    },
+    {
+        "id": 2,
+        "input": "Looking for a Data Analyst position. I know Python and Excel.",
+        "expected": "Missing location, salary, company and remote information."
+    },
+    {
+        "id": 3,
+        "input": "Hiring a Remote Software Engineer at Microsoft in Islamabad. Salary around 400000 PKR. Skills: Python, Docker, Kubernetes, AWS.",
+        "expected": "Complete job application extracted successfully."
+    },
+    {
+        "id": 4,
+        "input": "Need a Frontend Developer. Skills: HTML, CSS, JavaScript.",
+        "expected": "Clarification questions generated."
+    },
+    {
+        "id": 5,
+        "input": "Hiring an AI Engineer at OpenAI in San Francisco. Salary 180000 USD. Skills: Python, PyTorch, LangChain.",
+        "expected": "Complete job application extracted successfully."
+    }
+]
